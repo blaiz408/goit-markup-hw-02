@@ -10,6 +10,9 @@
 body {
   font-family: var(--primary-font-family);
   color: var(pr);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -18,44 +21,45 @@ body {
   text-decoration: none;
 }
 
-/* HEADER */
-.header {
-  background-color: #ffffff;
-}
-.header-logo {
-  color: var(--secondary-text-color-theme-light);
+/* LOGO */
+.logo {
   font-family: var(--secondary-font-family);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  letter-spacing: 0.03em;
-}
-.web-part {
+  line-height: 1.19;
   color: var(--accent-color);
 }
-.nav-list-link {
+.header-logo {
   color: var(--secondary-text-color-theme-light);
+}
+.footer-logo {
+  color: var(--primary-text-color-theme-dark);
+}
+
+/* HEADER */
+.header {
+  background-color: #ffffff;
+}
+.nav-list-link {
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-light);
 }
 .nav-list-link:hover,
 :focus {
   color: var(--accent-color);
 }
 .contact-list-link {
-  color: var(--primary-text-color-theme-light);
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color-theme-light);
 }
 .contact-list-link:hover,
 :focus {
@@ -67,7 +71,6 @@ body {
   background-color: #2f303a;
 }
 .main-tittle {
-  color: var(--primary-text-color-theme-dark);
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: 900;
@@ -75,11 +78,9 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+  color: var(--primary-text-color-theme-dark);
 }
 .modal-button {
-  background-color: #2196f3;
-  color: var(--primary-text-color-theme-dark);
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: bold;
@@ -89,98 +90,73 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: var(--primary-text-color-theme-dark);
 }
 
 /* ADVANTAGES */
 .adv-tittle {
-  color: var(--secondary-text-color-theme-light);
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--secondary-text-color-theme-light);
 }
 .adv-description {
-  color: var(--primary-text-color-theme-light);
-  font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* WHAT WE DO */
 .secondary-tittle {
-  color: var(--secondary-text-color-theme-light);
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
 }
 
 /* TEAM */
 .team {
+  font-family: var(--primary-font-family);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   background-color: #f5f4fa;
+  color: var(--secondary-text-color-theme-light);
 }
 .teammate-tittle {
-  color: var(--secondary-text-color-theme-light);
-  font-family: var(--primary-font-family);
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .speciality {
-  color: var(--primary-text-color-theme-light);
-  font-family: var(--primary-font-family);
-  font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 /* FOOTER */
 .footer {
   background-color: #2f303a;
 }
-.footer-logo {
-  color: var(--primary-text-color-theme-dark);
-  font-family: var(--secondary-font-family);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
+
 .address-place {
-  color: var(--primary-text-color-theme-dark);
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  color: var(--primary-text-color-theme-dark);
 }
 .address-place:hover,
 :focus {
   color: var(--accent-color);
 }
+
 .address-list-link {
-  color: var(--secondary-text-color-theme-dark);
-  font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.81;
-  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-dark);
 }
 .address-list-link:hover,
 :focus {
@@ -191,13 +167,12 @@ body {
 
 /* PORTFOLIO FILTERS */
 .portfolio-button-filter {
-  color: var(--secondary-text-color-theme-light);
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
 }
 .portfolio-button-filter:hover,
 :focus {
@@ -207,20 +182,19 @@ body {
 
 /* PROJECTS */
 .project-tittle {
-  color: var(--secondary-text-color-theme-light);
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--secondary-text-color-theme-light);
 }
 .project-style {
-  color: var(--primary-text-color-theme-light);
   font-family: var(--primary-font-family);
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
+  color: var(--primary-text-color-theme-light);
 }
